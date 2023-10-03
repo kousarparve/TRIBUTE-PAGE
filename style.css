@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .container{
+    background: #e5e5fd;;
+    min-height: 100dvh;
+    border: 10px solid #1d1e4c;
+  }
+.content {
+    max-width: 900px;
+    margin: 0 auto;
+  }
+  
+.top_section{
+    display: flex;
+    margin-top: 100px;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.image-container{
+    border-radius: 50%;
+    overflow: hidden;
+
+}
+
+  .image-container,img {
+   width: 300x;
+   height: 320px;
+  }
+ .top-section h1 {
+    font-size: 50px;
+    font-weight: bold;
+    color: #1d1e4c;
+    text-transform: uppercase;
+  }
+  .top-section h4 {
+    font-size: 30px;
+    text-align: end;
+  }
+  .about-section {
+    margin-top: 50px;
+  }
+  .about-section h2 {
+    font-size: 70px;
+    font-weight: 400;
+    margin-bottom: 20px;
+  }
+  .about-section p{
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 1.2px;
+  text-align: justify;
+  }
+  
+  .background{
+    margin-top: 50px;
+  }
+  .background h3{
+    font-size: 70px;
+    font-weight: 400;
+    margin-bottom: 20px;
+  }
+  .background p{
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 1.2px;
+  text-align: justify;
+  }
+  footer {
+    margin: 50px 0;
+  }
+  footer p {
+    text-align: end;
+  }
+
+
+
+  
+  .Biographies{
+    margin: 50px 0;
+  }
+.Biographies h3 {
+    margin-bottom: 20px;
+}
+.Biographies ul{
+    margin-left: 50px;
+}
+.Biographies li{
+    margin-bottom: 15px;
+}
